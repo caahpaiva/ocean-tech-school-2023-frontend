@@ -16,14 +16,35 @@
 .card:hover {
   box-shadow: 0.2rem 0.2rem white;
   translate: -2px -2px;
-}
+  cursor: pointer;
+
 }
 
 .card >h2 {
     font-size:2rem;
+    border-left: 2px solid purple;
 }
 
 .card > img {
   border-radius: 1rem;
+
+}
+
+.card button {
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+
+   
+
+    
+    
+
+   
 
 }
