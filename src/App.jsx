@@ -5,9 +5,9 @@ function App() {
     <>
       <div class="card">
         <h2>Rick Sanchez</h2>
-        <button> Status: Vivo </button>
-        <button>Espécie: Humana </button>
-        <button> Origem: Terra C-137</button>
+        <tag> Status: Vivo</tag>
+        <tag>Especíe: Humana</tag>
+       <p><tag>Origem: Terra C-137 </tag></p>
         <p></p>
         <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
         <p></p>
