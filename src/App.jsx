@@ -3,12 +3,15 @@ import './App.css'
 function App() {
     return (
     <>
-      <div class="card">
+      <div className="card">
         <h2>Rick Sanchez</h2>
-        <tag> Status: Vivo</tag>
-        <tag>Especíe: Humana</tag>
-       <p><tag>Origem: Terra C-137 </tag></p>
-        <p></p>
+
+        <div className="tags">
+          <div className="tag"> Status: Vivo </div>
+          <div className="tag"> Especíe: Humana </div>
+          <div className="tag"> Origem: Terra C-137 </div>
+        
+        </div>
         <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
         <p></p>
        
